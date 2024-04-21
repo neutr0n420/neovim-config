@@ -11,4 +11,8 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup("aryan.plugins")
+require("lazy").setup({ { import = "aryan.plugins" }, { import = "aryan.plugins.lsp" } }, {
+  change_detection = {
+    notify = false,
+  },
+})

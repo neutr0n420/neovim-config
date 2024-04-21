@@ -22,7 +22,7 @@ opt.smartcase = true -- if you include mixed case in your search, assumes you wa
 
 -- opt.termguicolors = true
 opt.termguicolors = true
-opt.background = "dark"  -- colorshemes that can be light or dark will make it dark
+opt.background = "dark" -- colorshemes that can be light or dark will make it dark
 opt.signcolumn = "yes" -- show sign column so that text doesn't shift
 
 -- backspace
@@ -34,4 +34,3 @@ opt.clipboard:append("unnamedplus") -- use system clipboard as default register
 -- split windows
 opt.splitright = true -- split vertical window to the right
 opt.splitbelow = true -- split horizantal window to the bottom
-
